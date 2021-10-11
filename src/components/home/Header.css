@@ -1,0 +1,43 @@
+.header {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  /* position: absolute;
+  top: 0px;
+  left: 0px; */
+  background-image: url("../../img/headerphotos/7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slogan {
+  margin: 1em;
+}
+
+.button-header {
+  margin-left: 1em;
+  width: 150px;
+}
+
+/*----------MEDIA QUERIES------------*/
+
+@media (min-width: 1270px) {
+  .header {
+    height: 650px;
+    background-position: 0 70%;
+  }
+}
+
+@media (min-width: 1824px) {
+  .header {
+    height: 650px;
+    background-position: 0 60%;
+  }
+}
+
+@media (min-width: 1940px) {
+  .header {
+    height: 700px;
+    background-position: 0 50%;
+  }
+}

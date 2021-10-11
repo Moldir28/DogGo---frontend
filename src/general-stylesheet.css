@@ -1,0 +1,167 @@
+/*
+COLORS: 
+Blue (primary): #3699E2
+Yellow: #F4C34D
+Red: #DC3C4D
+
+Dark grey: #2E2E2E
+Offwhite: #F8FBFD
+*/
+body {
+  background-color: #f8fbfd;
+  margin: 0;
+}
+/*----------------------TEXT----------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kollektif-Bold", Arial;
+  color: #2e2e2e;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 25px;
+}
+
+p,
+a,
+ol,
+ul,
+div {
+  font-family: "Gidole-Regular", "Arial";
+  color: #2e2e2e;
+  text-decoration: none;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.p2 {
+  font-size: 18px;
+}
+
+.p3 {
+  font-size: 16px;
+}
+
+/*only for *-texts or fine-print*/
+.p4 {
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+/*----------------------BUTTON----------------------*/
+button {
+  background-color: #dc3c4d;
+  color: #f8fbfd;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  min-width: 100px;
+  font-family: "Kollektif", "Arial";
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d65d69;
+}
+
+button.buttonblue {
+  background-color: #3699e2;
+}
+
+/* button.buttonblue:hover {
+  background-color: #60a9dd;
+} */
+
+/*----------------------TEXT COLORS----------------------*/
+/* The default color for text is dark grey but can be
+changed by assigning the classes.
+
+IMPORTANT:
+
+<p> only in dark grey or offwhite
+<h1> - <h6> can be assigned all colors
+
+*/
+
+.textred {
+  color: #dc3c4d;
+}
+
+.textblue {
+  color: #3699e2;
+}
+
+.textyellow {
+  color: #f4c34d;
+}
+
+.textgrey {
+  color: #2e2e2e;
+}
+
+.textwhite {
+  color: #f8fbfd;
+}
+
+/*----------------------CHANGE FONTS----------------------*/
+.kollektif {
+  font-family: "Kollektif";
+}
+
+.gidole {
+  font-family: "Gidole";
+}
+
+.kollektif-italic {
+  font-family: "Kollektif-Italic";
+}
+
+/*----------------------BACKGROUND COLORS----------------------*/
+.backgroundred {
+  background-color: #dc3c4d;
+}
+
+.backgroundblue {
+  background-color: #3699e2;
+}
+
+.backgroundyellow {
+  background-color: #f4c34d;
+}
+
+/*-------840---------------FOOTER----------------------*/

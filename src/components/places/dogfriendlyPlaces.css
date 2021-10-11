@@ -1,0 +1,63 @@
+.headerPlaces {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-image: url("../../img/headerphotos/20.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 70%;
+}
+
+.slogan {
+  margin: 1em;
+}
+
+.button-header {
+  margin-left: 1em;
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 600px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+.addNewLocationBtn {
+  margin: 2rem 1rem;
+}
+
+.newLocationPrompt {
+  display: flex;
+}
+
+/*----------MEDIA QUERIES------------*/
+
+@media (min-width: 1530px) {
+  .headerPlaces {
+    /* height: 600px; */
+    background-position: 0 70%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .headerPlaces {
+    height: 600px;
+    background-position: 0 80%;
+  }
+}
+
+@media (min-width: 2300px) {
+  .headerPlaces {
+    height: 700px;
+  }
+}
