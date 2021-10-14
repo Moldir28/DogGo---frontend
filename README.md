@@ -1,10 +1,17 @@
-The project is deployed on Netlify: https://fervent-pike-a9a679.netlify.app/
+### `How I worked on this project`
 
-# Getting Started with Create React App
+In this project we wanted to simulate a professional work environment and worked on it in a team of 3 developers.
+We used Trello as our project management tool.
+We created wireframes on: https://app.diagrams.net/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `How I built this project`
 
-## Available Scripts
+The plattform was built with the MERN stack
+The backend is deployed on Heroku and frontend is deployed on Netlify: https://fervent-pike-a9a679.netlify.app/
+
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -19,4 +26,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
