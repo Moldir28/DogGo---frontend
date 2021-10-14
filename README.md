@@ -1,12 +1,15 @@
-### `How I worked on this project`
+### How I worked on this project
 
 In this project we wanted to simulate a professional work environment and worked on it in a team of 3 developers.
+
 We used Trello as our project management tool.
+
 We created wireframes on: https://app.diagrams.net/
 
-### `How I built this project`
+### How I built this project
 
 The plattform was built with the MERN stack
+
 The backend is deployed on Heroku and frontend is deployed on Netlify: https://fervent-pike-a9a679.netlify.app/
 
 
